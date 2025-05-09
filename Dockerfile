@@ -17,6 +17,5 @@ RUN bun install
 # Expose port
 EXPOSE 3000
 
-# Start server
-CMD ["bun", "server.ts"]
-
+# Start the application
+CMD ["bun", "run", "start"]
